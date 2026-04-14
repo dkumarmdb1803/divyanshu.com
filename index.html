@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu Gupta | Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+
+
+<body class="dark-theme"> <nav class="navbar">
+        <div class="logo" onclick="window.location.href='#home'"></div>
+        
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" data-i18n="nav-home">Home</a></li>
+            <li><a href="#about" data-i18n="nav-about">About</a></li>
+            <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
+            <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+
+        <div class="controls">
+            <button id="lang-toggle" class="control-btn" title="Change Language">
+                <span id="lang-text">HI</span>
+            </button>
+            
+            <button id="theme-toggle" class="control-btn" title="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <div id="menu-icon" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h3 class="greeting">Hi there, I'm</h3>
+                <h1 class="name">Divyanshu Gupta</h1>
+                <h2 class="role">Software Engineer & Web Developer</h2>
+                <p class="description">
+                    A results-driven developer **coding since school**. 
+                    I specialize in building clean, responsive websites 
+                    and am currently seeking **freelance opportunities** while pursuing my B.Tech journey.
+                </p>
+               <div class="cta-buttons">
+    <a href="#contact-form" class="btn primary-btn">Let's Work Together</a>
+    
+    <a href="assets/my-cv.pdf" download="Divyanshu_Gupta_CV" class="btn secondary-btn">
+        <i class="fas fa-download"></i> Download CV
+    </a>
+</div>
+        </section>
+
+      <section class="about" id="about">
+    <div class="about-container">
+        <h2 class="section-num">01.</h2>
+        <h3 class="section-title">About Me</h3>
+        
+        <div class="about-card">
+            <div class="about-content">
+                <p>
+                    I am a dedicated <strong>Web Developer</strong> who recently passed Class 12. 
+                    My journey into the world of technology began in school, where I discovered 
+                    my passion for coding and problem-solving.
+                </p>
+                <p>
+                    Right now, I am mastering <strong>HTML & CSS</strong> while diving into the 
+                    basics of <strong>JavaScript</strong>. My ultimate goal is to become a 
+                    Software Engineer and contribute to meaningful projects that make a difference.
+                </p>
+                
+                <div class="about-highlights">
+                    <span onclick="openModal('12th Graduate')"><i class="fas fa-graduation-cap"></i> 12th Graduate</span>
+                    <span onclick="openModal('Coding Enthusiast')"><i class="fas fa-code"></i> Coding Enthusiast</span>
+                    <span onclick="openModal('Fast Learner')"><i class="fas fa-rocket"></i> Fast Learner</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="about-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h3 id="modal-title">Title</h3>
+        <p id="modal-text">Description goes here...</p>
+    </div>
+</div>
+
+        <section class="goals" id="goals">
+            <div class="goals-container">
+                <div class="section-header">
+                    <h2 class="section-num">02.</h2>
+                    <h3 class="section-title">My Future Goals</h3>
+                </div>
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <div class="goal-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4>Academic Excellence</h4>
+                        <p>Pursuing B.Tech to master core engineering principles and advanced coding.</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-icon"><i class="fas fa-rocket"></i></div>
+                        <h4>Startup Solutions</h4>
+                        <p>Building impactful websites for startups to gain real-world professional experience.</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Skill Evolution</h4>
+                        <p>Learning future-ready languages to stay ahead in the ever-evolving tech industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="hire-me" id="hire-me">
+    <div class="hire-container">
+        <div class="section-header">
+            <h2 class="section-num">03.</h2>
+            <h3 class="section-title">Why Hire Me?</h3>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="card-number">01</div>
+                <div class="benefit-icon"><i class="fas fa-bullseye"></i></div>
+                <h4>Target Oriented</h4>
+                <p>I don't just start projects; I finish them. Once a target is set, I don't stop until it's done.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="card-number">02</div>
+                <div class="benefit-icon"><i class="fas fa-sync-alt"></i></div>
+                <h4>Adaptability</h4>
+                <p>I am open to professional feedback and willing to iterate until the result matches the vision.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="card-number">03</div>
+                <div class="benefit-icon"><i class="fas fa-check-double"></i></div>
+                <h4>Unstoppable Discipline</h4>
+                <p>Coding can be tough, but I have the persistence to sit through bugs and solve them without quitting.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="skills-container">
+        <div class="section-header">
+            <h2 class="section-num">04.</h2>
+            <h3 class="section-title">Technical Skills</h3>
+        </div>
+
+        <div class="skills-wrapper">
+            <div class="skill-category">
+                <h4><i class="fas fa-layer-group"></i> Core Technologies</h4>
+                <div class="skill-items">
+                    <div class="skill-card mastery" onclick="openSkillModal('HTML5')">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <small>Structure & SEO</small>
+                    </div>
+                    <div class="skill-card learning" onclick="openSkillModal('CSS3')">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <small>Mastering Layouts</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4><i class="fas fa-tools"></i> Tools & Future</h4>
+                <div class="skill-items">
+                    <div class="skill-card learning" onclick="openSkillModal('JavaScript')">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <small>Initial Basics</small>
+                    </div>
+                    <div class="skill-card mastery" onclick="openSkillModal('VS Code')">
+                        <i class="fas fa-code"></i>
+                        <span>VS Code</span>
+                        <small>Daily Editor</small>
+                    </div>
+                    <div class="skill-card future" onclick="openSkillModal('Python')">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <small>Exploring Basics</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <section class="learning" id="learning">
+    <div class="learning-container">
+        <div class="section-header">
+            <h2 class="section-num">05.</h2>
+            <h3 class="section-title">Learning Path</h3>
+        </div>
+        
+<div class="learning-grid">
+    <div class="learning-card" onclick="openLearnModal('Responsive Design')">
+        <div class="learning-content">
+            <div class="learning-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="learning-info">
+                <h4>Responsive Design</h4>
+                <p>Mastering Media Queries and Flexbox to build mobile-first websites.</p>
+                <div class="status-wrapper">
+                    <span class="status-pill active">In Progress</span>
+                    <small style="display:block; margin-top:5px; color:var(--primary); font-size:0.7rem;">Click to see what I learned!</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learning-card" onclick="openLearnModal('JavaScript Basics')">
+        <div class="learning-content">
+            <div class="learning-icon"><i class="fab fa-js-square"></i></div>
+            <div class="learning-info">
+                <h4>JavaScript Basics</h4>
+                <p>Starting with DOM manipulation and basic logic building.</p>
+                <div class="status-wrapper">
+                    <span class="status-pill upcoming">Starting Soon</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="learning-card" onclick="openLearnModal('Problem Solving')">
+        <div class="learning-content">
+            <div class="learning-icon"><i class="fas fa-brain"></i></div>
+            <div class="learning-info">
+                <h4>Problem Solving</h4>
+                <p>Practicing logical thinking to solve basic coding challenges.</p>
+                <div class="status-wrapper">
+                    <span class="status-pill daily">Daily Practice</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+      <section class="tools" id="tools">
+    <div class="tools-container">
+        <div class="section-header">
+            <h2 class="section-num">06.</h2>
+            <h3 class="section-title">Tools & Software</h3>
+        </div>
+        <div class="tools-grid">
+            <div class="tool-card os-card">
+                <div class="tool-icon-box"><i class="fas fa-desktop"></i></div>
+                <div class="tool-meta">
+                    <h4>Operating Systems</h4>
+                    <p>My multi-boot environment</p>
+                    <div class="os-buttons">
+                        <a href="https://www.microsoft.com/software-download/windows10" target="_blank" title="Windows 10">
+                            <i class="fab fa-windows"></i>
+                        </a>
+                        <a href="https://linuxmint.com/download.php" target="_blank" title="Linux Mint">
+                            <i class="fas fa-leaf"></i>
+                        </a>
+                        <a href="https://www.kali.org/get-kali/" target="_blank" title="Kali Linux">
+                            <i class="fas fa-dragon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://code.visualstudio.com/download" target="_blank" class="tool-card">
+                <div class="tool-icon-box"><i class="fas fa-file-code"></i></div>
+                <div class="tool-meta">
+                    <h4>VS Code</h4>
+                    <p>IDE & Extensions</p>
+                </div>
+                <i class="fas fa-external-link-alt external-icon"></i>
+            </a>
+
+            <a href="https://www.canva.com/" target="_blank" class="tool-card">
+                <div class="tool-icon-box"><i class="fas fa-palette"></i></div>
+                <div class="tool-meta">
+                    <h4>Canva</h4>
+                    <p>UI/UX Inspiration</p>
+                </div>
+                <i class="fas fa-external-link-alt external-icon"></i>
+            </a>
+
+            <a href="https://www.google.com/chrome/" target="_blank" class="tool-card">
+                <div class="tool-icon-box"><i class="fab fa-chrome"></i></div>
+                <div class="tool-meta">
+                    <h4>DevTools</h4>
+                    <p>Live Testing</p>
+                </div>
+                <i class="fas fa-external-link-alt external-icon"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+       <section class="journey" id="journey">
+    <div class="journey-container">
+        <div class="section-header">
+            <h2 class="section-num">07.</h2>
+            <h3 class="section-title">My Journey</h3>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">The Beginning</span>
+                    <h4>The Inspiration</h4>
+                    <p>Inspired by family members at <span class="info-link" onclick="openJourneyModal('Adobe')">Adobe</span>, I started my tech journey. I wanted to understand how software that runs the world is built.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">Class 11th</span>
+                    <h4>Mobile Learning Era</h4>
+                    <p>I built my first <span class="info-link" onclick="openJourneyModal('Python Calculator')">Python Calculator</span> using <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3" target="_blank" class="tech-link">Pydroid 3</a>. It proved that you don't need a PC to start coding.</p>
+                    <a href="#projects" class="mini-project-btn">View My Calculator Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fas fa-rocket"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">Present</span>
+                    <h4>Current Mission</h4>
+                    <p>I am currently deep-diving into <span class="info-link" onclick="openJourneyModal('Full Stack')">Full-Stack Web Development</span> to build complete, professional websites from scratch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <section class="progress-section" id="progress">
+    <div class="progress-container">
+        <div class="section-header">
+            <h2 class="section-num">08.</h2>
+            <h3 class="section-title">Live Progress</h3>
+        </div>
+        <div class="progress-grid">
+            <div class="stat-card challenge">
+                <div class="stat-icon"><i class="fas fa-fire"></i></div>
+                <div class="stat-info">
+                    <span class="stat-label">Challenge Streak</span>
+                    <h4 class="stat-value" id="challenge-day">Day -- / 90</h4>
+                    <p>Building consistency through daily coding sessions.</p>
+                </div>
+            </div>
+
+            <div class="stat-card building">
+                <div class="stat-icon"><i class="fas fa-tasks"></i></div>
+                <div class="stat-info">
+                    <span class="stat-label">Currently Building</span>
+                    <h4 class="stat-value">Portfolio & Login UI</h4>
+                    <p>Click to see my learning roadmap and mindset.</p>
+                </div>
+            </div>
+
+            <div class="stat-card achievement">
+                <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
+                <div class="stat-info">
+                    <span class="stat-label">Recent Milestones</span>
+                    <h4 class="stat-value">3 Projects Ready</h4>
+                    <div class="project-btns">
+                        <a href="#" class="mini-btn">Portfolio V1</a>
+                        <a href="#" class="mini-btn">Login UI</a>
+                        <a href="#" class="mini-btn">Current Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+        
+<section class="project-details" id="project-details">
+    <div class="details-container">
+        <div class="section-header">
+            <h2 class="section-num">09.</h2>
+            <h3 class="section-title">Project Deep Dive</h3>
+        </div>
+
+        <div class="details-grid">
+            <div class="detail-box">
+                <span class="detail-tag">Case Study #01</span>
+                <h4>SecureAccess Login UI</h4>
+                <p class="meaning"><strong>Concept:</strong> "Simplicity is the ultimate sophistication." More than just a form, this is an exercise in user psychology and data integrity.</p>
+                <ul class="feature-list">
+                    <li onclick="openDetailModal('JS Validation')"><i class="fas fa-info-circle"></i> JS-based Form Validation</li>
+                    <li onclick="openDetailModal('Mobile First')"><i class="fas fa-info-circle"></i> Mobile-first Responsive Layout</li>
+                    <li onclick="openDetailModal('Data Privacy')"><i class="fas fa-info-circle"></i> Focus on User Data Privacy</li>
+                </ul>
+            </div>
+
+            <div class="detail-box">
+                <span class="detail-tag">Case Study #02</span>
+                <h4>Minimalist Identity Portfolio</h4>
+                <p class="meaning"><strong>Concept:</strong> Building a digital home. This project helped me master the balance between white space and content hierarchy.</p>
+                <ul class="feature-list">
+                    <li onclick="openDetailModal('Typography')"><i class="fas fa-info-circle"></i> Clean & Bold Typography</li>
+                    <li onclick="openDetailModal('Semantic HTML')"><i class="fas fa-info-circle"></i> Semantic HTML5 Structure</li>
+                    <li onclick="openDetailModal('Performance')"><i class="fas fa-info-circle"></i> Optimized for Fast Loading</li>
+                </ul>
+            </div>
+
+            <div class="detail-box">
+                <span class="detail-tag">Case Study #03</span>
+                <h4>Modern Personal Dashboard</h4>
+                <p class="meaning"><strong>Concept:</strong> Transforming complex data into a simplified visual experience using modern CSS techniques.</p>
+                <ul class="feature-list">
+                    <li onclick="openDetailModal('Flexbox Grid')"><i class="fas fa-info-circle"></i> Advanced Flexbox Layouts</li>
+                    <li onclick="openDetailModal('Dark Mode JS')"><i class="fas fa-info-circle"></i> Dynamic Theme Switching</li>
+                    <li onclick="openDetailModal('Interactive UI')"><i class="fas fa-info-circle"></i> Custom CSS Animations</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="services-container">
+        <div class="section-header">
+            <h2 class="section-num">10.</h2>
+            <h3 class="section-title">Professional Solutions</h3>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card highlight">
+                <div class="service-badge">Most Popular</div>
+                <div class="service-icon"><i class="fas fa-rocket"></i></div>
+                <h4>Custom Web Development</h4>
+                <p>From idea to execution. I build high-performance, responsive websites using the latest tech stack.</p>
+                <ul class="service-points">
+                    <li>Clean & Semantic Code</li>
+                    <li>SEO Optimized Structure</li>
+                </ul>
+                <div class="service-meta">
+                    <span><i class="far fa-clock"></i> Guaranteed 14-Day Delivery</span>
+                </div>
+              <a href="javascript:void(0)" onclick="setServiceInterest('New Website Build')" class="service-link">
+    Start Project <i class="fas fa-chevron-right"></i>
+</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-magic"></i></div>
+                <h4>UI/UX Modernization</h4>
+                <p>Is your website looking old? I'll transform your outdated site into a modern, sleek digital experience.</p>
+                <ul class="service-points">
+                    <li>Mobile-First Design</li>
+                    <li>Improved User Journey</li>
+                </ul>
+                <div class="service-meta">
+                    <span><i class="fas fa-bolt"></i> Speed & Performance Boost</span>
+                </div>
+                <a href="javascript:void(0)" onclick="setServiceInterest('Modern Web Revamp')" class="service-link">
+                  Revamp Now <i class="fas fa-chevron-right"></i>
+                   </a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                <h4>Startup/Student Launchpad</h4>
+                <p>Quality shouldn't always be expensive. Special low-cost packages for small businesses and students.</p>
+                <ul class="service-points">
+                    <li>Affordable Pricing</li>
+                    <li>Scalable Architecture</li>
+                </ul>
+                <div class="service-meta">
+                    <span><i class="fas fa-wallet"></i> Budget-Friendly Quality</span>
+                </div>
+                <a href="javascript:void(0)" onclick="setServiceInterest('Startup Quote')" class="service-link">
+                    Get a Quote <i class="fas fa-chevron-right"></i>
+                   </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience" id="experience">
+    <div class="experience-container">
+        <div class="section-header">
+            <h2 class="section-num">11.</h2> <h3 class="section-title">Development Journey</h3>
+        </div>
+
+        <div class="exp-wrapper">
+            <div class="exp-item">
+                <div class="exp-dot"></div> <div class="exp-content">
+                    <div class="exp-header">
+                        <h4>Self-Learning Phase</h4>
+                        <span class="exp-date">Active (2026)</span>
+                    </div>
+                    <h5 class="exp-role">Web Development Enthusiast</h5>
+                    <p>Intensively learning the art of crafting responsive websites. Focusing on clean code and modern design principles.</p>
+                    <ul class="exp-tasks">
+                        <li>Built 3+ responsive UI projects using HTML/CSS.</li>
+                        <li>Mastering CSS Flexbox and Grid for pixel-perfect layouts.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="exp-item planned">
+                <div class="exp-dot"></div> <div class="exp-content">
+                    <div class="exp-header">
+                        <h4>Upcoming Milestone</h4>
+                        <span class="exp-date">In Pipeline</span>
+                    </div>
+                    <h5 class="exp-role">E-Commerce Web Concept</h5>
+                    <p>Building a local shop website to solve real-world business problems. Target: Product listing and responsive navigation.</p>
+                    <ul class="exp-tasks">
+                        <li>Interactive UI for local vendors.</li>
+                        <li>Focusing on user-experience and fast loading.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+    <div class="education-container">
+        <div class="section-header">
+            <h2 class="section-num">12.</h2>
+            <h3 class="section-title">Academic Roadmap</h3>
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card future-goal">
+                <div class="card-glow"></div>
+                <div class="edu-badge">2026 - 2030</div>
+                <div class="edu-icon-circle"><i class="fas fa-microchip"></i></div>
+                <div class="edu-content">
+                    <h4>B.Tech in Computer Science</h4>
+                    <p class="institution">JEE MAINS & LPUNEST Aspirant</p>
+                    <p class="edu-desc">Core CSE focus with targeted expertise in <b>Full Stack</b> & <b>AI/ML</b>.</p>
+                    <div class="edu-tags"><span>DSA</span><span>Cloud</span></div>
+                </div>
+            </div>
+
+            <div class="edu-card academic">
+                <div class="card-glow"></div>
+                <div class="edu-badge">Graduated 2026</div>
+                <div class="edu-icon-circle"><i class="fas fa-atom"></i></div>
+                <div class="edu-content">
+                    <h4>Intermediate (Class XII)</h4>
+                    <p class="institution">S L M L +2 High School Gandhi Nagar Simari(52175), Madhubani</p>
+                    <p class="edu-score">Score: 64% | BSEB</p>
+                    <div class="edu-tags"><span>PCM Specialist</span></div>
+                </div>
+            </div>
+
+            <div class="edu-card academic">
+                <div class="card-glow"></div>
+                <div class="edu-badge">Graduated 2024</div>
+                <div class="edu-icon-circle"><i class="fas fa-award"></i></div>
+                <div class="edu-content">
+                    <h4>Matriculation (Class X)</h4>
+                    <p class="institution">S L M L High School Gandhi Nagar Simari(62065), Madhubani</p>
+                    <p class="edu-score">Score: 85% | BSEB</p>
+                    <div class="achievements">
+                        <span><i class="fas fa-trophy"></i> 3x Prize Winner</span>
+                        <span><i class="fas fa-medal"></i> Speech 2nd Rank</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="certifications" id="certifications">
+    <div class="certifications-container">
+        <div class="section-header">
+            <h2 class="section-num">13.</h2>
+            <h3 class="section-title">Dev Learning Logs</h3>
+        </div>
+
+        <div class="cert-grid">
+            <div class="dev-log" data-tilt>
+                <div class="card-glow"></div>
+                <div class="log-header">
+                    <div class="log-meta">
+                        <span class="status-label">FRONTEND_DEV</span>
+                        <span class="blink-dot"></span>
+                    </div>
+                    <span class="log-id">#001</span>
+                </div>
+                <div class="log-body">
+                    <h4>Web Design Roadmap</h4>
+                    <p class="issuer">via freeCodeCamp & Apna College</p>
+                    <div class="mini-stats">
+                        <div class="stat-row">
+                            <span>HTML</span>
+                            <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+                            <span class="val">75%</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>CSS</span>
+                            <div class="bar"><div class="fill" style="width: 10%;"></div></div>
+                            <span class="val">10%</span>
+                        </div>
+                    </div>
+                    <p class="cert-desc">Practicing on VS Code. Finished major HTML structures, currently exploring CSS Flexbox and Grid layouts for better UI.</p>
+                </div>
+                <div class="log-footer">
+                    <span class="tag">#HTML5</span><span class="tag">#VS_Code</span><span class="tag">#WebDev</span>
+                </div>
+            </div>
+
+            <div class="dev-log" data-tilt>
+                <div class="card-glow"></div>
+                <div class="log-header">
+                    <div class="log-meta">
+                        <span class="status-label">PYTHON_CORE</span>
+                        <span class="blink-dot blue"></span>
+                    </div>
+                    <span class="log-id">#002</span>
+                </div>
+                <div class="log-body">
+                    <h4>Python Programming</h4>
+                    <p class="issuer">Self-Taught (Mobile + PC)</p>
+                    <div class="mini-stats">
+                        <div class="stat-row">
+                            <span>Logic</span>
+                            <div class="bar"><div class="fill" style="width: 10%;"></div></div>
+                            <span class="val">10%</span>
+                        </div>
+                    </div>
+                    <p class="cert-desc">Built a **Login Window concept**. Learning core syntax and transitioning from mobile coding to advanced PC development environment.</p>
+                </div>
+                <div class="log-footer">
+                    <span class="tag">#Python3</span><span class="tag">#Login_UI</span><span class="tag">#ProblemSolving</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="achievements" id="achievements">
+    <div class="achievements-container">
+        <div class="section-header">
+            <h2 class="section-num">14.</h2>
+            <h3 class="section-title">Live Milestones</h3>
+        </div>
+
+        <div class="achieve-grid">
+            <div class="achieve-card" data-tilt>
+                <div class="achieve-glow"></div>
+                <div class="icon-box pulse-red">
+                    <i class="fas fa-fire-alt"></i>
+                </div>
+                <div class="achieve-info">
+                    <span class="achieve-tag">Live Tracking</span>
+                    <h4>Coding Streak</h4>
+                    <p>Current Status: <b id="streak-day">Day 03</b><b>/90</b> challenge. Consistently pushing code and building daily logic.</p>
+                </div>
+            </div>
+
+            <div class="achieve-card" data-tilt>
+                <div class="achieve-glow"></div>
+                <div class="icon-box pulse-blue">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="achieve-info">
+                    <span class="achieve-tag">Build Phase</span>
+                    <h4>Rapid Prototyping</h4>
+                    <p>Successfully deployed <b>02+ Live Projects</b>. Currently building <b>1 new UI</b> every 2-3 days.</p>
+                </div>
+            </div>
+
+            <div class="achieve-card" data-tilt>
+                <div class="achieve-glow"></div>
+                <div class="icon-box pulse-green">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="achieve-info">
+                    <span class="achieve-tag">Skill Acquisition</span>
+                    <h4>Fast Track Learning</h4>
+                    <p>Mastered <b>Advanced HTML/CSS</b> structures within 1 week. Now scaling towards JS & Python.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="problem-solving" id="problem-solving">
+    <div class="problem-container">
+        <div class="section-header">
+            <h2 class="section-num">15.</h2>
+            <h3 class="section-title">Logic & Debugging</h3>
+        </div>
+
+        <div class="logic-grid">
+            <div class="logic-card" data-tilt>
+                <div class="scanner-line"></div>
+                <div class="logic-content">
+                    <div class="logic-header">
+                        <div class="icon-circle"><i class="fas fa-brain"></i></div>
+                        <span class="status-code">ANALYSIS_MODE</span>
+                    </div>
+                    <h4>Analytical Approach</h4>
+                    <p>Applying <b>PCM (Physics, Chemistry, Maths)</b> logic to break down complex coding problems into manageable modules.</p>
+                </div>
+            </div>
+
+            <div class="logic-card" data-tilt>
+                <div class="scanner-line"></div>
+                <div class="logic-content">
+                    <div class="logic-header">
+                        <div class="icon-circle"><i class="fas fa-bug"></i></div>
+                        <span class="status-code">DEBUG_ACTIVE</span>
+                    </div>
+                    <h4>Debugging Efficiency</h4>
+                    <p>Proactive in identifying <b>syntax errors</b> and logical bottlenecks, ensuring the final output is clean and bug-free.</p>
+                </div>
+            </div>
+
+            <div class="logic-card" data-tilt>
+                <div class="scanner-line"></div>
+                <div class="logic-content">
+                    <div class="logic-header">
+                        <div class="icon-circle"><i class="fas fa-microchip"></i></div>
+                        <span class="status-code">SYSTEM_ARCH</span>
+                    </div>
+                    <h4>Structured Thinking</h4>
+                    <p>Planning <b>Website Architecture</b> (UI/UX flow) with mathematical precision before writing the first line of code.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="github-section" id="github">
+    <div class="github-container">
+        <div class="section-header">
+            <h2 class="section-num">16.</h2>
+            <h3 class="section-title">Code Repository</h3>
+        </div>
+
+        <div class="github-card" data-tilt>
+            <div class="card-glow"></div>
+            <div class="gh-header">
+                <div class="gh-branding">
+                    <i class="fab fa-github"></i>
+                    <div class="gh-user">
+                        <h4>@dkumarmdb1803</h4>
+                        <span class="gh-badge"><span class="dot"></span> Active Developer</span>
+                    </div>
+                </div>
+                <a href="https://github.com/dkumarmdb1803" target="_blank" class="gh-btn">
+                    <span>View Profile</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <div class="gh-stats">
+                <div class="stat-box">
+                    <span class="label">Architecture</span>
+                    <span class="num text-green">In-Progress</span>
+                </div>
+                <div class="stat-box">
+                    <span class="label">Current Build</span>
+                    <span class="num">20 Sections</span>
+                </div>
+                <div class="stat-box">
+                    <span class="label">Commit Status</span>
+                    <span class="num text-blue">Daily Push</span>
+                </div>
+            </div>
+
+            <div class="featured-repo">
+                <div class="repo-header">
+                    <div class="repo-title">
+                        <i class="fas fa-book-bookmark"></i>
+                        <h5>Master-Project: <span>Portfolio-Ultra-V1</span></h5>
+                    </div>
+                    <span class="repo-tag">Public</span>
+                </div>
+                <p class="repo-desc">
+                    Developing a comprehensive <b>20-section</b> mega portfolio. Focused on high-end CSS animations, Semantic HTML, and professional UI/UX architecture. 
+                </p>
+                <div class="repo-meta">
+                    <span class="meta-item"><span class="lang-dot"></span> HTML/CSS</span>
+                    <span class="meta-item"><i class="far fa-star"></i> Featured</span>
+                    <span class="meta-item"><i class="fas fa-code-branch"></i> Main</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog" id="blog">
+    <div class="blog-container">
+        <div class="section-header">
+            <h2 class="section-num">17.</h2>
+            <h3 class="section-title">Technical DevLogs</h3>
+        </div>
+
+        <div class="blog-grid">
+            <article class="blog-card status-stable" data-tilt>
+                <div class="blog-badge">v1.0 // Published</div>
+                <div class="blog-icon"><i class="fas fa-terminal"></i></div>
+                <h4>The 20-Section Portfolio Architecture</h4>
+                <p>An engineering breakdown of building a massive portfolio. Mastering <b>CSS Grid</b>, <b>BEM</b>, and <b>Responsive Logic</b> right after school.</p>
+                <div class="blog-footer">
+                    <span class="read-more">View Log <i class="fas fa-code"></i></span>
+                    <span class="meta">5 min read</span>
+                </div>
+            </article>
+
+            <article class="blog-card status-beta" data-tilt>
+                <div class="blog-badge">v0.5 // Drafting</div>
+                <div class="blog-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h4>Coding on Mobile: No Hardware Excuses</h4>
+                <p>How I used <b>Pydroid3</b> and mobile editors to master logic when a PC wasn't available. Content is currently being compiled.</p>
+                <div class="blog-footer">
+                    <span class="read-more">Syncing... <i class="fas fa-sync-alt fa-spin"></i></span>
+                    <span class="meta">May 2026</span>
+                </div>
+            </article>
+
+            <article class="blog-card status-planned" data-tilt>
+                <div class="blog-badge">v0.1 // Planned</div>
+                <div class="blog-icon"><i class="fas fa-square-root-alt"></i></div>
+                <h4>Physics of Code: PCM Logic in Dev</h4>
+                <p>Exploring how 12th-grade <b>Vector Math</b> and <b>Logical Reasoning</b> make JavaScript functions easier to grasp.</p>
+                <div class="blog-footer">
+                    <span class="read-more">Planned <i class="fas fa-clock"></i></span>
+                    <span class="meta">June 2026</span>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div id="blog-modal" class="blog-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeBlog()">&times;</span>
+            <div class="modal-header">
+                <span class="status-label">SYSTEM_MESSAGE</span>
+            </div>
+            <h2 id="modal-title"></h2>
+            <div class="coming-soon-body">
+                <div class="loader-line"></div>
+                <p><i class="fas fa-info-circle"></i> <b>Status:</b> Content is being pushed to the main branch.</p>
+                <p>The full article will be live soon. Backend syncing is currently active for this log.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonials" id="testimonials">
+    <div class="test-container">
+        <div class="section-header">
+            <h2 class="section-num">18.</h2>
+            <h3 class="section-title">Endorsements</h3>
+        </div>
+
+        <div class="test-grid">
+            <div class="test-card status-pending" data-tilt>
+                <div class="card-loader"></div>
+                <div class="quote-icon"><i class="fas fa-user-shield"></i></div>
+                <p class="test-text">"Endorsement content is currently under verification. Genuine feedback from peers and mentors will be updated soon."</p>
+                <div class="test-author">
+                    <div class="author-info">
+                        <h4>Verification Pending</h4>
+                        <span>Peer Review</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-card status-pending" data-tilt>
+                <div class="card-loader"></div>
+                <div class="quote-icon"><i class="fas fa-university"></i></div>
+                <p class="test-text">"Syncing feedback from academic mentors regarding PCM-based logical application in frontend development."</p>
+                <div class="test-author">
+                    <div class="author-info">
+                        <h4>Awaiting Review</h4>
+                        <span>Academic Mentor</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-card status-active" data-tilt>
+                <div class="quote-icon"><i class="fas fa-plus-circle"></i></div>
+                <p class="test-text">"Have we worked together on a project? Your honest feedback helps in building a better web ecosystem. Let's connect."</p>
+                <div class="test-author">
+                    <div class="author-info">
+                        <h4>Submit Feedback</h4>
+                        <span>Open for Connections</span>
+                    </div>
+                </div>
+                <a href="#contact" class="endorse-btn">Send Note</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-info-section" id="contact-info">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-num">19.</h2> <h3 class="section-title">Reach Out</h3>
+        </div>
+
+        <div class="contact-details-grid">
+            <div class="contact-card">
+                <i class="fas fa-envelope-open-text"></i>
+                <h4>Email Me</h4>
+                <p>For professional queries.</p>
+                <a href="mailto:dkumarmob1803@gmail.com">dkumarmob1803@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <h4>WhatsApp</h4>
+                <p>Quick chat or instant help.</p>
+                <a href="https://wa.me/918051725780" target="_blank">+91 80517 25780</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-github"></i>
+                <h4>GitHub</h4>
+                <p>Check out my code.</p>
+                <a href="https://github.com/dkumarmdb1803" target="_blank">@dkumarmdb1803</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-form-section" id="contact">
+    <div class="form-container">
+        <div class="section-header">
+            <h2 class="section-num">20.</h2>
+            <h3 class="section-title">Message Me</h3>
+        </div>
+
+        <div class="form-wrapper">
+            <form id="contactForm" class="main-form">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Mobile Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+91 00000 00000" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="How can I help you?" required></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="toast" class="toast">Message sent successfully! 🚀</div>
+<section class="faq" id="faq">
+    <div class="faq-container">
+        <div class="section-header">
+            <h2 class="section-num">21.</h2>
+            <h3 class="section-title">Common Questions</h3>
+        </div>
+
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Do you take on freelance projects?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, I am currently open to freelance opportunities and internships. I specialize in building responsive, dark-themed frontend architectures.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>How do you manage Coding with JEE preparation?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>It's all about discipline. I apply the logical reasoning learned in PCM (Physics, Chemistry, Maths) to solve programming challenges efficiently.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Can you build a website using only mobile?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>While I prefer a laptop for complex tasks, I mastered the fundamentals of HTML/CSS on mobile using Pydroid3. Logic doesn't depend on hardware.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>What is your tech stack for the future?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Currently mastering the MERN stack (MongoDB, Express, React, Node.js) to transition from a Frontend Specialist to a Full-Stack Engineer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="philosophy" id="philosophy">
+    <div class="phil-container">
+        <div class="section-header">
+            <h2 class="section-num">22.</h2>
+            <h3 class="section-title">Work Philosophy</h3>
+        </div>
+
+        <div class="phil-card">
+            <div class="phil-content">
+                <div class="phil-text">
+                    <h4>Coding with a Purpose</h4>
+                    <p>An engineer's role extends beyond merely designing interfaces; it is about architecting simple solutions for complex problems. I am committed to delivering excellence in every project by prioritizing <strong>Clean Code</strong>, <strong>Optimized Performance</strong>, and an <strong>Intuitive User Experience</strong>.</p>
+                    
+                    <ul class="phil-list">
+                        <li><i class="fas fa-check-circle"></i> 100% Responsive Design Guarantee</li>
+                        <li><i class="fas fa-check-circle"></i> Structured & Readable Documentation</li>
+                        <li><i class="fas fa-check-circle"></i> Logical Problem Solving Approach</li>
+                    </ul>
+                </div>
+                
+                <div class="availability-status">
+    <div class="status-badge">
+        <span class="pulse"></span>
+        Available for Projects
+    </div>
+    <p>Currently accepting freelance work and internship offers for 2026.</p>
+    
+    <a href="assets/my-cv.pdf" class="btn download-btn" download="Divyanshu_Gupta_Resume.pdf">
+        Download Resume <i class="fas fa-file-download"></i>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+       
+
+    </main>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2 class="logo-text">DG<span>.</span></h2>
+                <p>Building the future of the web, one pixel at a time.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2026 Divyanshu Gupta. All rights reserved.</p>
+            </div>
+            
+            <div class="footer-badge">
+                <p>Designed & Developed with <i class="fas fa-heart"></i> in Bihar</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://github.com/dkumarmdb1803" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/divyanshu-gupta-177935332" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/dkumarmdb1803_2" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
